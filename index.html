@@ -13,7 +13,7 @@
 
 <!--SCREEN 1-->
 
-<div class="screen">
+<div class="screen screen-1">
     <header class="container navbar">
         <div class="navbar-item">
             <img src="http://ayudabomberos.cl/wp-content/uploads/2016/04/clientTransbanka.png" alt="Transbank Logo" class="navbar-logo">
@@ -159,7 +159,7 @@
 
 <!--SCREEN 2-->
 
-<div class="screen">
+<div class="screen screen-2">
     <header class="container navbar">
         <div class="navbar-item">
             <img src="http://ayudabomberos.cl/wp-content/uploads/2016/04/clientTransbanka.png" alt="Transbank Logo" class="navbar-logo">
@@ -186,7 +186,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, commodi cum ea eligendi eum eveniet expedita in iure minima
                         modi.</p>
                 </div>
-                <div class="container inputs">
+                <div class="container centered inputs">
                     <div class="column">
 
                         <div class="column-item">
@@ -233,8 +233,6 @@
                                 <i class="far fa-trash-alt"></i>
                                 <i class="fas fa-plus"></i>
                             </div>
-
-
                     </div>
                 </div>
 
@@ -265,7 +263,7 @@
 
 <!-- SCREEN 3-->
 
-<div class="screen">
+<div class="screen screen-3">
     <header class="container navbar">
         <div class="navbar-item">
             <img src="http://ayudabomberos.cl/wp-content/uploads/2016/04/clientTransbanka.png" alt="Transbank Logo" class="navbar-logo">
@@ -287,15 +285,19 @@
         <main class="container">
             <div class="container main">
                 <div class="container vertical">
-                    <div class="main-header">
-                        <div class="container">
-                            <h1>Solicitud de Prepago</h1>
-                            <i class="fas fa-print"></i>
-                            <a href="#" class="button outline">Descargar documento<i class="fas fa-download"></i></i></a>
-                        </div>
+                    <div class="main-header container">
+                        <div class="container centered">
+                            <div class="container centered vertical">
+                                <h1>Solicitud de Prepago</h1>
+                                <p>Lee con atención el anexo y fírmalo si estás de acuerdo con sus condiciones </p>
+                            </div>
 
-                        <p>Lee con atención el anexo y fírmalo si estás de acuerdo con sus condiciones </p>
+                            <div class="container centered main-header-icons">
+                                <i class="fas fa-print"></i>
+                                <a href="#" class="button outline">Descargar documento<i class="fas fa-download"></i></a>
+                            </div>
 
+                    </div>
                     </div>
                     <div class="container vertical scrollable">
                             <h3>Lorem ipsum dolor sit amet</h3>
@@ -365,7 +367,7 @@
 <!--SCREEN 4-->
 
 
-<div class="screen">
+<div class="screen screen-4">
     <header class="container navbar">
         <div class="navbar-item">
             <img src="http://ayudabomberos.cl/wp-content/uploads/2016/04/clientTransbanka.png" alt="Transbank Logo" class="navbar-logo">
@@ -385,7 +387,7 @@
             </div>
         </aside>
         <main class="container">
-            <div class="container main">
+            <div class="container centered vertical main">
                 <div class="container vertical container-inputs">
                     <div class="main-header">
                         <h1>Estado de la solicitud</h1>
@@ -475,7 +477,7 @@
 <!--SCREEN 5-->
 
 
-<div class="screen">
+<div class="screen screen-5">
     <header class="container navbar">
         <div class="navbar-item">
             <img src="http://ayudabomberos.cl/wp-content/uploads/2016/04/clientTransbanka.png" alt="Transbank Logo" class="navbar-logo">
@@ -498,11 +500,19 @@
             <div class="container centered vertical main">
                 <div class="main-header">
                     <h1>Documentos pendientes por firmar</h1>
-                    <p>Revise el documento y luego firmelo</p>
+                    <p>Revise el documento y luego fírmelo</p>
                 </div>
                 <div class="container columns">
                     <div class="column">
-                        <div class="column-header">Producto</div>
+                        <div class="column-header">
+                            <div class="container centered">
+                                <p>Producto</p>
+                                <div class="container centered vertical">
+                                    <i class="fas fa-chevron-up"></i>
+                                    <i class="fas fa-chevron-down inactive"></i>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="column-item">
                             <p>Prepago</p>
@@ -528,7 +538,15 @@
 
                     </div>
                     <div class="column">
-                        <div class="column-header">Fecha</div>
+                        <div class="column-header">
+                            <div class="container centered">
+                                <p>Fecha</p>
+                                <div class="container centered vertical">
+                                    <i class="fas fa-chevron-up"></i>
+                                    <i class="fas fa-chevron-down inactive"></i>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="column-item">
                             <p>12 de Abril de 2018</p>
@@ -555,7 +573,11 @@
 
                     </div>
                     <div class="column">
-                        <div class="column-header">Documento</div>
+                        <div class="column-header">
+                            <div class="container centered">
+                                <p>Documento</p>
+                            </div>
+                        </div>
                         <div class="column-item">
                             <p>firma_digital_producto_prepago.pdf</p>
                             <a class="button" href="#">Revisar</a>
@@ -588,7 +610,7 @@
 
                         <div class="column-item">
                             <p>firma_digital_producto_prepago.pdf</p>
-                            <a class="button inactive" href="#">Descargar</a>
+                            <a class="button outline" href="#">Descargar</a>
                         </div>
 
 
@@ -597,15 +619,15 @@
             </div>
         </main>
     </div>
-</div>
 
-<div class="container centered overlay">
-    <div class="container centered vertical alert">
-        <i class="fas fa-times close-button"></i>
-        <h1>¡Gracias!</h1>
-        <h1>Su documento ha sido firmado con éxito</h1>
-        <a href="#" class="button">Descargar</a>
-        <p>Le quedan 520 documentos por firmar</p>
+    <div class="container centered overlay">
+        <div class="container centered vertical alert">
+            <i class="fas fa-times close-button"></i>
+            <h1>¡Gracias!</h1>
+            <h1>Su documento ha sido firmado con éxito</h1>
+            <a href="#" class="button">Descargar</a>
+            <p>Le quedan 520 documentos por firmar</p>
+        </div>
     </div>
 </div>
 
